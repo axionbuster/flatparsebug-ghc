@@ -113,5 +113,4 @@ Remarks:
   the optimization level.
 - In contrast, with `-fllvm`, the build always fails with this error,
   regardless of the optimization level.
-- As of this writing, GHC 9.6.6 is offered as part of the latest stable
-  Stackage LTS.
+- As of this writing, GHC 9.6.6 is part of the latest stable Stackage LTS.
