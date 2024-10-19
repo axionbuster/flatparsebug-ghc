@@ -18,6 +18,7 @@
 # snapshot: ./custom-snapshot.yaml
 # snapshot: https://example.com/snapshots/2024-01-01.yaml
 snapshot: nightly-2024-10-11
+compiler: ghc-9.10.1
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -52,7 +53,7 @@ ghc-options:
 # extra-package-dbs: []
 
 # Control whether we use the GHC we find on the path
-# system-ghc: true
+system-ghc: true
 #
 # Require a specific version of Stack, using version ranges
 # require-stack-version: -any # Default
