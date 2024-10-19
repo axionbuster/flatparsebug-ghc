@@ -114,3 +114,5 @@ Remarks:
 - In contrast, with `-fllvm`, the build always fails with this error,
   regardless of the optimization level.
 - As of this writing, GHC 9.6.6 is part of the latest stable Stackage LTS.
+- This issue is seen to occur with GHC 9.6.6, GHC 9.8.2, and GHC 9.10.1 with
+  LLVM 15.0.7. See the respective branches for details.
